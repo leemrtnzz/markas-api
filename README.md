@@ -8,7 +8,7 @@ Ini hanya project gabut dari https://markas-api.vercel.app
 #### Get info KTP
 
 ```http
-  GET /api/stalker/ktp
+  GET /api/stalker/ktp?nik=
 ```
 
 | Parameter | Type     | Description                |
@@ -18,7 +18,7 @@ Ini hanya project gabut dari https://markas-api.vercel.app
 #### Get info pajak kendaraan (Banten Only)
 
 ```http
-  GET /api/stalker/pajak
+  GET /api/stalker/pajak?nopol=
 ```
 
 | Parameter | Type     | Description                       |
@@ -28,7 +28,7 @@ Ini hanya project gabut dari https://markas-api.vercel.app
 #### Get gambar anime
 
 ```http
-  GET /api/random/anime/
+  GET /api/random/anime/?type=sfw
 ```
 
 | Parameter | Type     | Description                       |
@@ -60,7 +60,7 @@ Ini hanya project gabut dari https://markas-api.vercel.app
 Cocok untuk murojaah supaya tidak lupa dengan hafalannya, jadi memberikan rekomendasi surat berdasarkan tingkat modenya. Surat bacaan diambil dari juz 30.
 
 ```http
-  GET /api/muslim/surat_prayer
+  GET /api/muslim/surat_prayer?mode=
 ```
 
 | Parameter | Type     | Description                       |
@@ -71,7 +71,7 @@ Cocok untuk murojaah supaya tidak lupa dengan hafalannya, jadi memberikan rekome
 ### Get download facebook
 
 ```http
-  GET /api/dl/fb
+  GET /api/dl/fb?url=
 ```
 
 | Parameter | Type     | Description                       |
@@ -81,7 +81,7 @@ Cocok untuk murojaah supaya tidak lupa dengan hafalannya, jadi memberikan rekome
 ### Get download tiktok
 
 ```http
-  GET /api/dl/tiktok
+  GET /api/dl/tiktok?url=
 ```
 
 | Parameter | Type     | Description                       |
@@ -91,7 +91,7 @@ Cocok untuk murojaah supaya tidak lupa dengan hafalannya, jadi memberikan rekome
 ### Get download snack video
 
 ```http
-  GET /api/dl/snack
+  GET /api/dl/snack?url=
 ```
 
 | Parameter | Type     | Description                       |
